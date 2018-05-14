@@ -1,16 +1,4 @@
-/********************* RedactHaze **********************
-
-Original design: apopagasm
-Original CSS: Exanurous
-This stylesheet is derived from Gazelle Postmod.
-
-Similar ports are available on other sites under different names  (Haze, Beluga, ...)
-
-High-DPI images: Phlo
-
-*******************************************************/
-
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,bold);
+@import url(https://fonts.googleapis.com/css?family=Hi+Melody|Shadows+Into+Light|Source+Sans+Pro:300,400,600,bold);
 
 * {
     padding: 0;
@@ -20,7 +8,7 @@ html {
     width: 100%;
 }
 body {
-    background-image: url('./images/backgrounds/vinyl.jpg');
+    background-image: url('./images/backgrounds/a.png');
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -46,7 +34,9 @@ h1, h2, h3, h4 {
     font-weight: 400;
 }
 h2 {
-    font-size: 18px !important;
+    font-family: Hi Melody;
+    font-size: 30px !important;
+    line-height: 20px;
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 h2 a {
@@ -231,17 +221,17 @@ ul.thin li {
 }
 #logo {
     width: auto;
-    height: 80px;
+    height: 100px;
     z-index: 2;
-    margin-top: 15px;
-    margin-bottom: 30px
+    margin-top: 0;
+    margin-bottom: 25px
 }
 #logo a {
     border: none;
     width: auto;
-    height: 80px;
-    background: url('./images/light-on-dark/logo.png') no-repeat top left;
-    background-size: auto 80px;
+    height: 100px;
+    background: url('./images/backgrounds/logo.png') no-repeat top left;
+    background-size: auto 100px;
     display: block;
     margin-left: 0;
 }
@@ -499,7 +489,7 @@ ul.thin li {
 
 #extra2 {
 	position: fixed;
-	background-color: rgba(53, 54, 54, 0.97);
+	background-color: rgba(53, 54, 54, 0.9);
 	width: 984px;
   	top:0px; bottom:0; left:0; right:0;
 	margin:0px auto;
@@ -507,9 +497,11 @@ ul.thin li {
 }
 #userinfo_stats {
     color: #fff;
+    font-family: Shadows Into Light;
+    font-size: 15.25px;
     font-weight: 400;
-    text-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    line-height: 58px;
+    text-shadow: 0 0 15px rgba(0, 0, 255, 1);
+    line-height: 68px;
     vertical-align: middle;
     float: right;
     display: inline-block;
@@ -964,7 +956,7 @@ p.min_padding {
     font-style: italic;
 }
 .tags a {
-    color: rgba(255, 255, 255, 0.6) !important;
+    color: rgb(0, 200, 0) !important;
 }
 .tags a:hover {
     color: #02c2f2 !important;
