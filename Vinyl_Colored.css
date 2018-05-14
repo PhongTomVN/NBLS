@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Hi+Melody|Shadows+Into+Light|Source+Sans+Pro:300,400,600,bold);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro:300,400,600,bold);
 
 * {
     padding: 0;
@@ -34,9 +34,8 @@ h1, h2, h3, h4 {
     font-weight: 400;
 }
 h2 {
-    font-family: Hi Melody;
-    font-size: 30px !important;
-    line-height: 20px;
+    font-size: 18px !important;
+    line-height: 30px;
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 h2 a {
