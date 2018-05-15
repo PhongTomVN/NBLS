@@ -48,7 +48,7 @@ a img {
     border: 0;
 }
 table tbody a, .main_column a, .sidebar a, .box a {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgb(250, 250, 0);
 }
 table tbody a:hover, .main_column a:hover, .sidebar a:hover, .box a:hover {
     color: #02c2f2;
@@ -236,6 +236,7 @@ ul.thin li {
     outline: none;
 }
 #menu {
+    font-size: 13px;
     margin-bottom: 2px;
     height: 50px;
 }
@@ -929,7 +930,7 @@ p.min_padding {
     padding: 12px;
 }
 .main_column {
-    width: 658px;
+    width: 650px;
 }
 .main_column table {
     margin-bottom: 2px;
@@ -1026,6 +1027,17 @@ td, th {
 }
 .head .brackets {
     color: rgba(255, 255, 255, 0.5);
+}
+.colhead a, .colhead_dark a, #discog_table>.box.center a {
+    color: rgb(255, 255, 255) !important;
+}
+.head a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-shadow: 0 0 5px rgb(0, 0, 255);
+}
+.colhead_dark a img:active, .colhead_dark a img:focus {
+    outline: 0;
 }
 td.colhead, .colhead td, td.colhead_dark, .colhead_dark td, .colhead th {
     padding: 12px 5px;
