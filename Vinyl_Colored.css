@@ -96,7 +96,7 @@ img {
 }
 strong, b {
     font-weight: 600 !important;
-    text-shadow: 0 0 4px rgb(250, 0, 0);
+    text-shadow: 0 0 0.5px rgb(0, 0, 0);
 }
 .head .time {
     margin-left: 5px;
