@@ -19,7 +19,7 @@ body {
     background-color: #212121;
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 300;
     color: #fff;
 }
 .forum_post pre {
@@ -35,12 +35,6 @@ h1, h2, h3, h4 {
 }
 h2 {
     font-size: 18px !important;
-    line-height: 30px;
-    text-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
-h2 a {
-    color: rgba(255, 255, 255, 0.6);
-    text-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 a {
     text-decoration: none;
@@ -101,7 +95,7 @@ img {
     border: none;
 }
 strong, b {
-    font-weight: 700 !important;
+    font-weight: 600 !important;
 }
 .head .time {
     margin-left: 5px;
@@ -207,16 +201,18 @@ ul.thin li {
     overflow: hidden;
 }
 #footer {
-    margin-top: 40px;
+    margin-top: 50px;
     width: 100%;
     text-align: center;
     padding: 1em 0;
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    text-shadow: 0 0 5px rgba(255, 255, 255, .25);
 }
 #disclaimer_container {
-    font-size: 9px;
-    color: rgba(255, 255, 255, 0.6);
+    font-size: 10px;
+    color: rgb(255, 255, 255);
 }
 #logo {
     width: auto;
@@ -375,13 +371,10 @@ ul.thin li {
     width: 50px;
     margin-top: 0;
     padding-top: 35px;
-    font-weight: 700 !important;
-    font-size: 10px;
-    text-align: center;
+    font-size: 0px;
     background: url('./images/menu/staff-sprite-dark.png');
     background-position: 0 8px;
     background-size: 50px auto !important;
-    transition: color 0.2s;
 }
 #nav_staff a:hover {
     color: #fff;
@@ -429,10 +422,7 @@ ul.thin li {
     width: 50px;
     margin-top: 0;
     padding-top: 48px;
-    font-weight: 700;
-    font-size: 10px;
-    text-align: center;
-    transition: color 0.2s;
+    font-size: 0px;
 }
 #userinfo_major #nav_upload {
     background: url('./images/menu/upload-sprite-dark.png');
@@ -515,6 +505,7 @@ ul.thin li {
     color: #fff !important;
 }
 #userinfo_username {
+    font-size: 13px;
     position: absolute;
     list-style: none;
     margin: 4px 0 0 0;
@@ -612,6 +603,8 @@ ul.thin li {
     border-width: 0 1px 0 0;
 }
 #userinfo_minor {
+    font-size: 13px;
+    font-weight: 400;
     position: absolute;
     display: block;
     list-style: none;
@@ -862,7 +855,6 @@ input.hidden {
 }
 .thin h2 {
     font-weight: 600;
-    margin: 0 20px 0 0;
 }
 .linkbox {
     text-align: right;
@@ -909,14 +901,14 @@ p.min_padding {
     margin-bottom: 10px;
 }
 .box {
-    font-size: 13px;
+    font-size: 12px;
     background: none;
     background-color: rgba(0, 0, 0, 0.2);
     margin-bottom: 2px;
     word-wrap: break-word;
 }
 .box2 {
-    font-size: 13px;
+    font-size: 12px;
     background: none;
     background-color: rgba(0, 0, 0, 0.2);
     margin-bottom: 2px;
