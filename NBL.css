@@ -8,7 +8,7 @@ html {
     width: 100%;
 }
 body {
-    background-image: url('./images/backgrounds/a.png');
+    background-image: url('./images/backgrounds/b.png');
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -226,7 +226,7 @@ ul.thin li {
     border: none;
     width: auto;
     height: 100px;
-    background: url('./images/backgrounds/logo.png') no-repeat top left;
+    background: url('./images/backgrounds/nbl_logo.png') no-repeat top left;
     background-size: auto 100px;
     display: block;
     margin-left: 0;
