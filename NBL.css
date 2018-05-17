@@ -1241,7 +1241,7 @@ ul.poll li.graph {
     vertical-align: top;
 }
 .torrent_table a, .collage_table a {
-    color: #182029;
+    color: #000000;
 }
 .torrent_table a:hover, .collage_table a:hover {
     text-decoration: underline;
