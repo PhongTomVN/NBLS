@@ -516,6 +516,15 @@ ul.thin li {
     background-position: 0 48px;
     background-size: 50px auto !important;
 }
+#active_drive .donorbar {
+    height: 0;
+}
+#active_drive .donortext {
+    font-size: 0px;
+}
+#active_drive .donorpercent {
+    height: 0;
+}
 #extra2 {
 	position: fixed;
 	background-color: #f7f7f7;
