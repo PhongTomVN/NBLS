@@ -724,7 +724,8 @@ ul.thin li {
     background-repeat: no-repeat;
     background-position: 13px 14px;
     background-size: auto 22px;
-    margin-bottom: 10px;
+    margin: -8px 0 15px 0;
+    left: 0;
 }
 #searchbars input {
     -moz-box-sizing: border-box;
@@ -897,12 +898,11 @@ input.hidden {
     display: none;
 }
 .thin {
-    width: 900px;
-    margin: 0 auto;
+    width: 1000px;
+    margin: 5px auto;
 }
 .thin h2 {
     font-weight: 600;
-    margin: 0 20px 0 0;
 }
 .linkbox {
     text-align: right;
