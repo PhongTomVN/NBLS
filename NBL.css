@@ -49,7 +49,7 @@ a img {
     border: 0;
 }
 table tbody a, .main_column a, .sidebar a, .box a {
-    color: rgba(24, 32, 41, 0.6);
+    color: rgba(24, 32, 41, 0.95);
 }
 table tbody a:hover, .main_column a:hover, .sidebar a:hover, .box a:hover {
     color: #02c2f2;
@@ -243,8 +243,8 @@ ul.thin li {
     width: 100%;
     text-align: center;
     padding: 1em 0;
-    color: rgba(24, 32, 41, 0.6);
-    font-size: 10px;
+    color: rgba(24, 32, 41, 0.8);
+    font-size: 11px;
 }
 #disclaimer_container {
     font-size: 9px;
