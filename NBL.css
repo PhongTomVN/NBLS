@@ -252,19 +252,19 @@ ul.thin li {
 }
 #logo {
     width: auto;
-    height: 80px;
+    height: 65px;
     z-index: 2;
-    margin-top: 15px;
-    margin-bottom: 30px
+    margin-top: 20px;
+    margin-bottom: 40px
 }
 #logo a {
     border: none;
     width: auto;
-    height: 80px;
+    height: 65px;
     background: url('./images/backgrounds/nbl_logo.png') no-repeat top left;
-    background-size: auto 80px;
+    background-size: auto 65px;
     display: block;
-    margin-left: 0;
+    margin-left: 25px;
 }
 #header a:active, #header a:focus, #logo a:hover, #logo a:active, logo a:focus {
     border: none;
@@ -520,7 +520,7 @@ ul.thin li {
 	position: fixed;
 	background-color: #f7f7f7;
 	width: 1000px;
-  	top:0px; bottom:0; left:0; right:0;
+  	top:95px; bottom:0; left:0; right:0;
 	margin:0px auto;
 	z-index:-2;
 }
@@ -716,7 +716,7 @@ ul.thin li {
 }
 #searchbars {
     width: 1000px;
-    height: 34px;
+    height: 30px;
     padding: 8px 0;
     border: 1px solid rgba(0, 0, 0, 0.07);
     background: rgba(24, 32, 41, 0.05);
@@ -732,7 +732,7 @@ ul.thin li {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 124px;
-    height: 34px;
+    height: 30px;
     margin: 0;
     padding: 11px 11px;
     background: rgb(255, 255, 255);
@@ -2122,7 +2122,7 @@ strong, b {
     background: #f7f7f7;
     background-image: url('./images/dark-on-light/search.png');
     background-repeat: no-repeat;
-    background-position: 13px 14px;
+    background-position: 12px 12px;
     background-size: auto 22px;
     border: none;
 }
